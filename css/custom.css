@@ -1,0 +1,50 @@
+/* Custom Steez */
+
+body{
+	background: #c7c7c7;
+	font-family: proxima-nova, sans-serif;
+}
+
+a {
+	color:#2222c9;
+}
+
+h1,h2 {
+	font-family: masqualero, sans-serif;
+}
+.navbar {
+	margin-bottom: 1em;
+}
+
+.navbar ul{
+margin: 0;
+
+}
+
+.navbar li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar a {
+	padding:0.3em 1em;
+}
+
+.site-description {
+	margin-top: 0.5em;
+}
+
+.widget-area ul{
+	margin: 0;
+	padding: 0;
+}
+
+.widget-area li {
+	list-style: none;
+}
+
+.widget-area a {
+	color:#414141;
+
+
+}
