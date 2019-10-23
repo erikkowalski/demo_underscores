@@ -25,8 +25,8 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'demo' ); ?></a>
 
-	<nav id="masthead" class="navbar navbar-light bg-light ">
-
+	<nav id="masthead" class="navbar navbar-dark bg-dark ">
+<div class="container">
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -62,6 +62,7 @@
 
 
 		</div><!-- #site-navigation -->
+		</div>
 	</nav><!-- #masthead -->
 
 	<div id="content" class="site-content">
